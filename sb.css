@@ -42,9 +42,14 @@ nav#siteNav ul {
    font-size: 1em;
 }
 
+
+/* Below I used the font-weight to bold my navigation text.
+I also added a slight shaddow */
 nav#siteNav a {
    text-decoration: none; 
    color: rgb(0,154,0);
+   font-weight: bold;
+   text-shadow: 0 0 1px black;
 }
 
 nav#siteNav a:hover {
