@@ -8,9 +8,11 @@
    Filename:  sbstyles.css
 */
 
-/* I added  a linear-gradient background in my Header that goes from green to yellow.
-  I also applied a transform effect on the images in section#bottom. */ 
+/* I added  a linear-gradient background in my Header that goes from green to yellow. I applied this to all pages*/ 
 
+header {
+	background-image: linear-gradient(green,yellow);
+	} 
 
   /* Heading Styles */
 
@@ -77,6 +79,16 @@ section#sec1 article p {
 	height: 200px;
 	float: left;
 }
+
+/*below I centered the image on my home page as suggested by a peer.  
+I also added a 5px solid green border.   
+section#main img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border: 5px solid green;
+}  */
+
 /* Below is the style for my Feedback form */
 
 section#sec1 form {	
