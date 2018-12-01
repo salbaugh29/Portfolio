@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+      OC CIS 155 Web Development I
+      Build on Concepts Project #1 
+      Casual Cafe - Breakfast Menu
+	  
+      Student Name: Shayne Albaugh
+      Date:  October 7, 2018
+		
+      Filename: ccbreakfast.html
+      Supporting files: sb.css, sbstyles.css, sblogo.png
+
+   -->
+   
+<!-- I added embedded styles below.  I added one to the header that is a linear-gradient background that goes from green to yellow.
+  I also applied a transform effect on the images in section#bottom. -->   
+   <link href="sb.css" rel="stylesheet" />
+   <link href="sbstyles.css" rel="stylesheet" />
+   <meta charset="utf-8" />
+   <meta name="keywords" content="restaurant, cafe, food" />
+   <meta name="description" content="casual, home town, family owned" />
+   <meta name="author" content="Shayne, Albaugh" />
+   <style> header {background-image: linear-gradient(green,yellow);}</style>
+   <style> img.tn {transform: rotateZ(10deg);}</style>
+   <style> img.tn2 {transform: rotateZ(-10deg);}</style>
+   <title>Casual Cafe Breakfast</title>
+
+   </head>
+<!--Nothing gets coded between closing head and opening body tags. All page content, including header, goes in the body.-->
+   <body>
+      <nav id="siteNav">
+         <ul>
+            <li class="newTopic"><a href="home.html">Home</a></li>
+            <!--<li><a href="#">Place Holder</a></li>-->
+            <li class="newTopic"><a href="#">Menus</a></li>
+            <li><a href="ccbreakfast.html">Breakfast</a></li>
+            <li><a href="cclunch.html">Lunch/Dinner</a></li>
+			<li><a href="#">Dessert</a></li>
+			<li><a href="#">Beverages</a></li>
+			<li class="newTopic"><a href="about.html">About</a></li>
+            <!--<li><a href="#">Place Holder</a></li>-->
+         </ul>
+      </nav>
+
+      <header>
+<!-- image/logo created by Shayne Albaugh -->
+         <a href="home.html"><img src="sblogo.png" alt="Casual Cafe Logo" /></a>
+      </header>
+	  
+	  
+<!-- I created 3 new Sections on my page.  Sections with IDs of Top, Center, and Bottom -->   
+	  
+	  <section id="top">
+	  
+		 <img class="image sandwich" src="breakfast.png" style="width:286px;height:176px;">
+		 <img class="image juice" src="juice.png" usemap="#map" />
+		 <p>To go to our Beverage Menu please click on the <strong>Orange Juice</strong> image above.</p>
+		 <map name="map">
+			<area shape="rect" coords="253,129,156,4" href="ccdrinks.html">
+		 </map>	
+		 
+	  </section>
+	  
+	     <h1>Breakfast Menu</h1>
+      
+	  <section id="center">
+	  		 
+		 <h3>Classic Breakfast</h3>
+		 <p>2 eggs (any style), your choice of meat (bacon, sausage, or ham), hashbrowns, and your choice of toast, English muffin, or a biscuit.</p>
+		 <h3>Eggs Benedict</h3>
+		 <p>Poached eggs and Canadian bacon served on a toasted English muffin, topped with rich Hollandaise sauce.  Served with hashbrowns on the side.</p>
+		 <h3>Pancakes or French Toast</h3>
+		 <p>Your choice of 3 fluffy buttermilk pancakes or 2 slices of French toast.  Served with 2 eggs (any style), and fresh fruit.</p>
+		 <h3>Breakfast Sandwich Meal</h3>
+		 <p>Breakfast sandwich created on your choice of bread, English muffin, or biscuit.  To include bacon, sausage, or ham and your choice of cheese as well.  Served with a crispy hashbrown patty.  </p>
+		 <h3>Biscuits & Gravy</h3>
+		 <p>Two fresh baked buttermilk biscuits smothered in country sausage gravy.  Served with hash browns.</p>
+		 <h3>Corned Beef Hash</h3>
+		 <p>Traditional corned beef hash, 2 eggs (any style).  Served with your choice of toast, English muffin, or biscuit.</p>
+         	 			 
+      </section>
+
+	  <section id="bottom">
+		 
+		 <br/>
+	     <img class="image tn" src="breakfast.png">
+		 <img class="image tn2" src="breakfast.png">
+		 
+	  </section>
+
+<!-- I created this Footer as one of my structural elements. --> 	  
+	  <footer>
+		Casual Cafe &#8226; 1999 Prince Street, Shelton WA &nbsp; 98584 &#8226; 360-867-5309
+	  </footer>
+
+   </body>
+<!--Nothing gets coded between closing body and closing html tags. All page content, including footer, goes in the body.-->
+</html>

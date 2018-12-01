@@ -1,0 +1,196 @@
+/*
+   OC CIS 155 Web Development I
+   BoC Style Sheet for Casual Cafe Site
+
+   Author: Shayne Albaugh
+   DO NOT MODIFY THIS CODE
+
+   Filename:  sbstyles.css
+*/
+
+/* I added  a linear-gradient background in my Header that goes from green to yellow.
+  I also applied a transform effect on the images in section#bottom. */ 
+
+
+  /* Heading Styles */
+
+h1.heading {
+	color: rgb(0,154,0);
+}
+
+h2.heading {
+	color: rgb(0,154,0);
+}
+
+/* Bakground and Other Image Content */
+
+body {
+	background-image: url(wood_texture.png);	
+}
+  
+  
+/* Section Styles */
+
+section#top {
+   float: left;
+   width: 75%;
+}
+
+section#top h2 {
+   font-size: 1.9em;
+   letter-spacing: .25em;
+}
+
+section#bottom {
+   float: left;
+   width: 75%;
+}
+
+section#bottom h2 {
+   font-size: 1.9em;
+   letter-spacing: .25em;
+}
+
+section#center {
+	overflow: auto;
+	position: relative;
+	height: 400px;
+	width: 100%;
+}
+
+/* section sec1 styles */
+
+section#sec1 {
+	width: 100%;
+	height: 340px;
+}
+/* Below is the style for my article section that has the scrolling columns */
+section#sec1 article {
+	width: 67%;
+	float: left;
+	background-color: rgb(144,238,144);
+}
+
+section#sec1 article p {		
+	overflow: auto;
+	width:33%;
+	height: 200px;
+	float: left;
+}
+/* Below is the style for my Feedback form */
+
+section#sec1 form {	
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+
+h2 {text-align: center}
+
+p#center {
+	display: block;
+}
+
+/* Below is the style for my flex-container */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image Styles */
+ 
+.sandwich {
+	border-radius: 50%;
+}
+
+.juice {
+	border-radius: 8%;
+}
+
+
+/* I used the below 2 transform rules to tilt the bottom pictures (above the footer).
+I also added style tags in my html page head.  
+I get the same result with using either placement and commenting the other out. 
+I was confused by the instructions, so i wanted to cover my bases. */
+
+.tn {
+	border: 2px solid green;
+    border-radius: 4px;
+    width: 150px;
+	transform: rotateZ(10deg);
+}
+
+.tn2 {
+	border: 2px solid green;
+    border-radius: 4px;
+    width: 150px;
+	float: right;
+	transform: rotateZ(-10deg);
+}
+
+/* Footer Styles */
+
+body > footer {
+	text-align: center;
+}
+
+footer::after {
+	clear: both;
+	content: "";
+	display: table;
+}	
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+	
+/* About Section Styles */
+
+section#about {
+   float: left;
+   width: 75%;
+}
+
+section#about h2 {
+   font-size: 1.9em;
+   letter-spacing: .25em;
+}
+
+
+/* Stuff Section Styles */
+
+section#stuff {
+	margin: auto;
+	width: 50%;
+}
+
+/* Contact Section Styles */
+
+section#contact {
+	margin: auto;
+	width: 50%;
+}
+
+/* Below is the style for my table */
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+	

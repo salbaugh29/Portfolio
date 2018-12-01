@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+      OC CIS 155 Web Development I
+      Build on Concepts Project #1 
+      Casual Cafe Lunch/Dinner
+	  
+      Student Name: Shayne Albaugh
+      Date:  November 11, 2018
+		
+      Filename: cclunch.html
+      Supporting files: sb.css, sbstyles.css, sblogo.png, breakfast.png
+
+   -->
+   <link href="sb.css" rel="stylesheet" />
+   <link href="sbstyles.css" rel="stylesheet" />
+   <meta charset="utf-8" />
+   <meta name="keywords" content="restaurant, cafe, food, burgers" />
+   <meta name="description" content="casual, home town, family owned" />
+   <meta name="author" content="Shayne, Albaugh" />
+   <title>Casual Cafe Lunch</title>
+
+   </head>
+<!--Nothing gets coded between closing head and opening body tags. All page content, including header, goes in the body.-->
+   <body>
+      <nav id="siteNav">
+         <ul>
+            <li class="newTopic"><a href="home.html">Home</a></li>
+            <!--<li><a href="#">Place Holder</a></li>-->
+            <li class="newTopic"><a href="#">Menus</a></li>
+            <li><a href="ccbreakfast.html">Breakfast</a></li>
+            <li><a href="cclunch.html">Lunch/Dinner</a></li>
+			<li><a href="#">Dessert</a></li>
+			<li><a href="#">Beverages</a></li>
+			<li class="newTopic"><a href="about.html">About</a></li>
+            <!--<li><a href="#">Place Holder</a></li>-->
+         </ul>
+      </nav>
+
+      <header>
+         <!-- image/logo created by Shayne Albaugh -->
+         <a href="home.html"><img src="sblogo.png" alt="Casual Cafe Logo" /></a>
+      </header>
+
+	  
+	  <h1>NOW OPEN FOR LUNCH!!</h1>
+	  
+	  
+      <section>
+	  
+	  <section id="sec1">
+
+	  <article>
+	  <h2>Three Column Article Heading</h2>
+	    <p>This is content for the first column of the article on my page.  
+		I really don't know what to use here as content, so I'm just typing enough to try and make my content scrollable per the instructions.  
+		I was finally able to accomplish the overflow!!!</p>
+		<p>This is content for the second column of the article on my page.  
+		I really don't know what to use here as content, so I'm just typing enough to try and make my content scrollable per the instructions.  
+		I was finally able to accomplish the overflow!!!</p>
+		<p>This is content for the third column of the article on my page.  
+		I really don't know what to use here as content, so I'm just typing enough to try and make my content scrollable per the instructions.  
+		I was finally able to accomplish the overflow!!!</p>
+	  </article>
+	  
+	  <form>
+	  <h2>Feedback Form</h2>	   
+	    <label for="name">Name</label><br />
+		<input name="custName" id="name" type="text" /><br />
+        <label for="phone">Phone Number</label><br />
+        <input name="custPhone"	id="phone" type="tel" placeholder="(nnn) nnn-nnnn" 
+		 pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"/><br />
+        <label for="mail">Email</label><br />
+        <input name="custEmail" id="mail" type="email" /><br />
+        <label for="commBox">Please give us your feedback.</label><br />
+        <textarea name="custFB" id="commBox"></textarea><br /><br />
+        <input type="submit" value="Submit Feedback" /><br /><br />
+        <input type="reset" value="Reset" /><br />		
+	  </form>
+	  </section>
+	  
+	  <section id="sec2">
+	  
+	  <div class="flex-container">
+		<div><img src="buns.png" alt=""></div>
+		<div><img src="cheese.png" alt=""></div>
+		<div><img src="veg.png" alt=""></div>
+	  </div>
+	  </section>	
+	  
+	  <h2>Create Your Own Burger</h2>
+	  <table>
+	  <tr>
+		<th>Breads</th>
+		<th>Meats</th>
+		<th>Cheeses</th>
+		<th>Veggies</th>
+	  </tr>
+	  <tr>
+	    <td>White Bun</td>
+		<td>Sirlion Burger</td>
+		<td>American</td>
+		<td>Lettuce</td>
+	  </tr>
+	  <tr>
+	    <td>Wheat Bun</td>
+		<td>Turkey Burger</td>
+		<td>Cheddar</td>
+		<td>Tomato</td>
+	  </tr>
+	  <tr>
+	    <td>Ciabatta Roll</td>
+		<td>Salmon Burger</td>
+		<td>Swiss</td>
+		<td>Onions</td>
+	  </tr>
+	  <tr>
+	    <td>Pretzel Roll</td>
+		<td>Veggie Burger</td>
+		<td>Pepper Jack</td>
+		<td>Pickles</td>
+	  </tr>	  
+	  </table>
+        
+      </section>
+	  
+  
+	  <footer>
+		Casual Cafe &#8226; 1999 Prince Street, Shelton WA &nbsp; 98584 &#8226; 360-867-5309
+	  </footer>
+
+   </body>
+<!--Nothing gets coded between closing body and closing html tags. All page content, including footer, goes in the body.-->
+</html>
+			

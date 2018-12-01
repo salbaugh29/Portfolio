@@ -1,0 +1,98 @@
+/*
+   OC CIS 155 Web Development I
+   BoC Baseline Style Sheet for Casual Cafe Site
+
+   Author: Shayne Albaugh
+   DO NOT MODIFY THIS CODE
+
+   Filename:  sb.css
+*/
+
+/* Display HTML5 structural elements as blocks */
+
+header, section, nav {
+   display: block;
+}
+
+
+/* Body styles */
+
+body {
+	width: 80%;
+    min-width: 900px;
+    max-width: 900px;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Site Navigation Styles */
+
+nav#siteNav {
+   float: left;
+   width: 15%;
+   margin-right: 40px;
+}
+
+nav#siteNav ul {
+   list-style-type: none; 
+   padding-left: 0px; 
+   margin-left: 30px; 
+   font-size: 1em;
+}
+
+nav#siteNav a {
+   text-decoration: none; 
+   color: rgb(0,154,0);
+}
+
+nav#siteNav a:hover {
+   text-decoration: overline underline;
+}
+
+nav#siteNav li.newTopic {
+   margin: 10px 0px 10px -20px;
+}
+
+
+/* Header Styles */
+
+header {
+   float: left;
+   border-bottom: 2px solid rgb(0,154,0);
+   width: 75%;
+}
+
+
+/* Main Section Styles */
+
+section#main {
+   float: left;
+   width: 75%;
+}
+
+section#main h2 {
+   font-size: 1.9em;
+   letter-spacing: .25em;
+}
+
+section#top {
+   float: left;
+   width: 75%;
+}
+
+section#top h2 {
+   font-size: 1.9em;
+   letter-spacing: .25em;
+}
+section#bottom {
+   float: left;
+   width: 75%;
+}
+
+section#bottom h2 {
+   font-size: 1.9em;
+   letter-spacing: .25em;
+}
+
